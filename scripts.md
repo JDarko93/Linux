@@ -51,3 +51,26 @@ Aliases can be created using the keyword 'alias'. They care used to create short
 
 alias saygreen='./saygreen.sh "green"
 '''
+
+
+### Bash script comparison operators 
+In bash scripting, strings are compared using == (Equal) and != (Not equal) operators 
+
+'''
+#Example
+#!bin/bash
+
+word1="Hello"
+word2="Hello"
+word3="Hello"
+
+if [ $word1 == $word2 ]
+then
+  echo "Strings are equal"
+fi
+
+if [ $word1 != $word3 ]
+then
+  echo "Strongs are not equal"
+fi
+'''
